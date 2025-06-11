@@ -28,7 +28,8 @@ I'm *Fadlil Ferdiansyah, a Computer Engineering student with a strong focus on *
 </div>
 📱 Mobile Development
 <div align="center"> 
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white" alt="Kotlin"/> </div>
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white" alt="Kotlin"/> 
+</div>
 ⚙️ Backend Development
 <div align="center"> 
   <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" alt="PHP"/> 
@@ -38,7 +39,8 @@ I'm *Fadlil Ferdiansyah, a Computer Engineering student with a strong focus on *
 <div align="center"> 
   <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white" alt="Google Cloud Platform"/
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker"/> 
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" alt="Kubernetes"/> </div>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" alt="Kubernetes"/> 
+</div>
 
 ### 📊 GitHub Stats
 
