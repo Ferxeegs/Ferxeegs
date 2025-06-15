@@ -41,7 +41,7 @@ I'm *Fadlil Ferdiansyah, a Computer Engineering student with a strong focus on *
 
 
   <a href="https://github.com/Ferxeegs">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ferxeegs&layout=compact&langs_count=8&theme=nightowl" />
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ferxeegs&layout=compact&exclude_repo=Fish-Species-Api&theme=nightowl" />
   </a>
 
   <a href="https://git.io/streak-stats">
