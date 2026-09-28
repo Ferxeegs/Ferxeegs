@@ -60,9 +60,7 @@ Building internal web platforms, asset management systems, and AI-integrated app
       <img src="./assets/github-streak.svg" alt="GitHub contribution streak" width="100%" />
     </td>
     <td width="50%" align="center">
-      <a href="https://github.com/Ferxeegs">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ferxeegs&layout=compact&theme=transparent&hide_border=true" alt="Top languages" width="100%" />
-      </a>
+      <img src="./assets/github-top-langs.svg" alt="Most used languages" width="100%" />
     </td>
   </tr>
 </table>
