@@ -73,7 +73,7 @@ def generate_svg(languages: list[tuple[str, int]]) -> str:
         )
 
     bar_x = 25
-    bar_y = 58
+    bar_y = 80
     bar_w = 445
     bar_h = 8
     segments = []
@@ -81,7 +81,7 @@ def generate_svg(languages: list[tuple[str, int]]) -> str:
     for item in items:
         width = bar_w * (item["percent"] / 100)
         segments.append(
-            f'      <rect height="{bar_h}" x="{bar_x + offset:.2f}" y="{bar_y}" '
+            f'  <rect height="{bar_h}" x="{bar_x + offset:.2f}" y="{bar_y}" '
             f'width="{width:.2f}" fill="{item["color"]}" mask="url(#lang-bar-mask)"/>'
         )
         offset += width
@@ -89,7 +89,7 @@ def generate_svg(languages: list[tuple[str, int]]) -> str:
     rows = []
     col_w = 222
     row_h = 28
-    start_y = 86
+    start_y = 108
     for index, item in enumerate(items):
         col = index % 2
         row = index // 2
@@ -99,10 +99,10 @@ def generate_svg(languages: list[tuple[str, int]]) -> str:
         rows.append(
             "\n".join(
                 [
-                    f'    <g transform="translate({x}, {y})">',
-                    f'      <circle cx="5" cy="6" r="5" fill="{item["color"]}"/>',
-                    f'      <text x="16" y="10" class="lang-name">{label}</text>',
-                    "    </g>",
+                    f'  <g transform="translate({x}, {y})">',
+                    f'    <circle cx="5" cy="6" r="5" fill="{item["color"]}"/>',
+                    f'    <text x="16" y="10" class="lang-name">{label}</text>',
+                    "  </g>",
                 ]
             )
         )
@@ -111,11 +111,14 @@ def generate_svg(languages: list[tuple[str, int]]) -> str:
   <title id="title">Most Used Languages</title>
   <desc id="desc">Compact GitHub top languages card for {USER}</desc>
   <style>
+    .kicker {{ font: 600 10px 'Segoe UI', Ubuntu, sans-serif; fill: #67E8F9; letter-spacing: 1.6px; }}
     .header {{ font: 600 18px 'Segoe UI', Ubuntu, sans-serif; fill: #E6F7FF; }}
     .lang-name {{ font: 400 12px 'Segoe UI', Ubuntu, sans-serif; fill: #94A3B8; }}
   </style>
-  <rect x="0.5" y="0.5" width="494" height="194" rx="4.5" fill="#000000" fill-opacity="0" stroke="#000000" stroke-opacity="0"/>
-  <text x="25" y="38" class="header">Most Used Languages</text>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="16" fill="#07111F" fill-opacity="0.55" stroke="#67E8F9" stroke-opacity="0.16"/>
+  <text x="25" y="28" class="kicker">GITHUB</text>
+  <text x="25" y="52" class="header">Most Used Languages</text>
+  <rect x="25" y="62" width="36" height="3" rx="1.5" fill="#22D3EE"/>
   <defs>
     <mask id="lang-bar-mask">
       <rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="{bar_h}" rx="5" fill="white"/>

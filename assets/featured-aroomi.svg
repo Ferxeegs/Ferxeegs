@@ -1,0 +1,44 @@
+<svg width="1280" height="240" viewBox="0 0 1280 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Featured work: Aroomi</title>
+  <desc id="desc">University-wide room and asset booking platform for Universitas Diponegoro.</desc>
+  <defs>
+    <linearGradient id="featBg" x1="0" y1="0" x2="1280" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="1" stop-color="#0A2A36"/>
+    </linearGradient>
+    <linearGradient id="featGlow" x1="980" y1="20" x2="1240" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="240" rx="28" fill="url(#featBg)"/>
+  <rect width="1280" height="240" rx="28" fill="url(#featGlow)"/>
+  <rect x="0.75" y="0.75" width="1278.5" height="238.5" rx="27.25" stroke="#67E8F9" stroke-opacity="0.16"/>
+
+  <text x="48" y="58" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2.2">FEATURED WORK</text>
+  <text x="48" y="104" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Aroomi</text>
+  <text x="48" y="138" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="16">Platform pemesanan ruang dan aset Universitas Diponegoro.</text>
+  <text x="48" y="164" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Laravel / Filament / MySQL / real-time availability / institutional booking</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">
+    <rect x="48" y="184" width="84" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="90" y="203" text-anchor="middle" fill="#E6F7FF">Laravel</text>
+    <rect x="140" y="184" width="88" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="184" y="203" text-anchor="middle" fill="#E6F7FF">Filament</text>
+    <rect x="236" y="184" width="76" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="274" y="203" text-anchor="middle" fill="#E6F7FF">MySQL</text>
+  </g>
+
+  <rect x="860" y="36" width="372" height="168" rx="20" fill="#061018" stroke="#67E8F9" stroke-opacity="0.12"/>
+  <text x="884" y="68" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">undip / asset-ops</text>
+  <rect x="884" y="84" width="150" height="14" rx="7" fill="#134E4A"/>
+  <rect x="884" y="108" width="210" height="10" rx="5" fill="#1E3A5F"/>
+  <rect x="884" y="128" width="176" height="10" rx="5" fill="#1E3A5F" fill-opacity="0.7"/>
+  <rect x="884" y="156" width="86" height="26" rx="8" fill="#155E75"/>
+  <text x="927" y="174" text-anchor="middle" fill="#A5F3FC" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600">Available</text>
+  <rect x="980" y="156" width="86" height="26" rx="8" fill="#1E293B"/>
+  <text x="1023" y="174" text-anchor="middle" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600">Booked</text>
+  <rect x="1076" y="156" width="120" height="26" rx="8" fill="#0F766E"/>
+  <text x="1136" y="174" text-anchor="middle" fill="#CCFBF1" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600">In Charge</text>
+</svg>
