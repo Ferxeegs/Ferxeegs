@@ -15,34 +15,34 @@
       <rect x="25" y="80" width="445" height="8" rx="5" fill="white"/>
     </mask>
   </defs>
-  <rect height="8" x="25.00" y="80" width="265.07" fill="#3572A5" mask="url(#lang-bar-mask)"/>
-  <rect height="8" x="290.07" y="80" width="105.70" fill="#3178C6" mask="url(#lang-bar-mask)"/>
-  <rect height="8" x="395.77" y="80" width="53.48" fill="#41B883" mask="url(#lang-bar-mask)"/>
-  <rect height="8" x="449.25" y="80" width="8.16" fill="#00ADD8" mask="url(#lang-bar-mask)"/>
-  <rect height="8" x="457.41" y="80" width="6.85" fill="#555555" mask="url(#lang-bar-mask)"/>
-  <rect height="8" x="464.26" y="80" width="5.74" fill="#663399" mask="url(#lang-bar-mask)"/>
+  <rect height="8" x="25.00" y="80" width="262.87" fill="#3572A5" mask="url(#lang-bar-mask)"/>
+  <rect height="8" x="287.87" y="80" width="108.44" fill="#3178C6" mask="url(#lang-bar-mask)"/>
+  <rect height="8" x="396.31" y="80" width="53.04" fill="#41B883" mask="url(#lang-bar-mask)"/>
+  <rect height="8" x="449.35" y="80" width="8.09" fill="#00ADD8" mask="url(#lang-bar-mask)"/>
+  <rect height="8" x="457.45" y="80" width="6.79" fill="#555555" mask="url(#lang-bar-mask)"/>
+  <rect height="8" x="464.24" y="80" width="5.76" fill="#663399" mask="url(#lang-bar-mask)"/>
   <g transform="translate(25, 108)">
     <circle cx="5" cy="6" r="5" fill="#3572A5"/>
-    <text x="16" y="10" class="lang-name">Python 59.57%</text>
+    <text x="16" y="10" class="lang-name">Python 59.07%</text>
   </g>
   <g transform="translate(247, 108)">
     <circle cx="5" cy="6" r="5" fill="#3178C6"/>
-    <text x="16" y="10" class="lang-name">TypeScript 23.75%</text>
+    <text x="16" y="10" class="lang-name">TypeScript 24.37%</text>
   </g>
   <g transform="translate(25, 136)">
     <circle cx="5" cy="6" r="5" fill="#41B883"/>
-    <text x="16" y="10" class="lang-name">Vue 12.02%</text>
+    <text x="16" y="10" class="lang-name">Vue 11.92%</text>
   </g>
   <g transform="translate(247, 136)">
     <circle cx="5" cy="6" r="5" fill="#00ADD8"/>
-    <text x="16" y="10" class="lang-name">Go 1.83%</text>
+    <text x="16" y="10" class="lang-name">Go 1.82%</text>
   </g>
   <g transform="translate(25, 164)">
     <circle cx="5" cy="6" r="5" fill="#555555"/>
-    <text x="16" y="10" class="lang-name">C 1.54%</text>
+    <text x="16" y="10" class="lang-name">C 1.53%</text>
   </g>
   <g transform="translate(247, 164)">
     <circle cx="5" cy="6" r="5" fill="#663399"/>
-    <text x="16" y="10" class="lang-name">CSS 1.29%</text>
+    <text x="16" y="10" class="lang-name">CSS 1.30%</text>
   </g>
 </svg>
