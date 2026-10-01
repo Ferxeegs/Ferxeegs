@@ -84,5 +84,9 @@
 </p>
 
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Ferxeegs&style=for-the-badge&color=0E7490" alt="Profile views" />
+</p>
+
+<p align="center">
   <sub>Semarang, Indonesia · ferxcode.my.id</sub>
 </p>
